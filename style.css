@@ -1,0 +1,176 @@
+/* starting nav bar css */
+
+.mail_heading {
+  font-size: 52px;
+  color: #f74780;
+  text-align: center;
+}
+/* ending nav bar css */
+.login_btn,
+.btn-light {
+  border-color: #f74780 !important;
+  color: #f74780 !important;
+}
+.login_btn:hover,
+.btn-light:hover {
+  background-color: #f74780 !important;
+  color: white !important;
+}
+.sing_btn {
+  background-color: #f74780 !important;
+  border-color: #f74780 !important;
+}
+.sing_btn:hover {
+  background-color: white !important;
+  color: #f74780 !important;
+  border-color: #f74780 !important;
+}
+.mail_svg {
+  padding-bottom: 20px;
+  height: 69px;
+}
+.hero1_head {
+  font-size: 62px;
+}
+.hero_1 {
+  font-size: 30px;
+}
+.hero1_btn {
+  background-color: #f74780;
+  border-color: #f74780;
+}
+.hero1_btn:hover {
+  background-color: white;
+  border-color: #f74780;
+  color: #f74780;
+}
+.hero2_btn,
+.more_btn,
+.price_btn {
+  background-color: #f74780;
+  border-color: #f74780;
+  color: white;
+}
+.hero2_btn:hover,
+.price_btn:hover {
+  background-color: white;
+  border-color: #f74780;
+  color: #f74780;
+}
+.hero2_h4,
+.features1_h4,
+.features2_h4,
+.price_h4 {
+  color: #f74780 !important;
+}
+.features1_h1,
+.features2_h1,
+.price_h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.features1_p,
+.features2_p,
+.price_p {
+  color: grey;
+  font-size: 21px;
+}
+.service-item {
+  transition: 0.5s;
+}
+.service-item:hover {
+  transform: scale(1.02);
+  background-color: rgb(251, 228, 251) !important;
+}
+hr {
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  width: 5%;
+  color: #ed6e96ef;
+}
+.imp_features:hover {
+  background-color: white !important;
+}
+.more_btn:hover {
+  background-color: white;
+  border-color: #f74780;
+  color: #f74780;
+}
+.list-unlisted {
+  gap: 10px;
+}
+.price_basic {
+  color: #f74780 !important;
+}
+.price_pro {
+  color: #6610f2 !important;
+}
+.price_card {
+  background-color: #f6f6fa;
+  transition: 0.5s;
+}
+.price_card:hover {
+  background-color: white !important;
+  box-shadow: 10px 10px 20px black !important;
+}
+.blog_btn {
+  color: #f74780;
+  background-color: white;
+  border-color: #f74780;
+}
+.blog_btn:hover {
+  color: white;
+  background-color: #f74780;
+  border-color: #f74780;
+}
+.blog_img_par{
+  overflow: hidden;
+}
+.blog_img {
+  width: 100%;
+  height: 225px;
+  object-position: 50% 16%;
+  background: rgba(102, 16, 242, 0.2);
+  transition: 0.5s ease;
+  
+}
+
+.blog_img:hover{
+  transform: scale(1.2);
+}
+.left_dropdown{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.collapse-info{
+  font-size: larger;
+  background-color: #f6f4f4c2;
+}
+.collapse-info:hover{
+  border: 2px solid #f74780;
+}
+.footer_hvr:hover{
+transition: all 1s ease-out;
+letter-spacing: 2.5px;
+color: #f74780;
+}
+.color_copy{
+  color: #f74780;
+}
+@media (min-width:310px) and (max-width:500px){
+  .ftr_container{
+    display: flex;
+    flex-direction: column;
+  }
+  .blog_container{
+    display: flex;
+    flex-direction: column;
+  }
+  .no_svg{
+    display: block;
+  }
+  .img_drop{
+    width: 100%;
+  }
+}
